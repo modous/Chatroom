@@ -13,8 +13,8 @@ body {
       rgba(255, 255, 0, 0.9),
       rgba(255, 255, 0, 0) 70%
     ),
-    radial-gradient(circle at top left, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0) 70%),
-    radial-gradient(circle at center right, rgba(255, 0, 255, 0.8), rgba(255, 0, 255, 0) 50%);
+    radial-gradient(circle at top left, rgb(253, 0, 0), rgba(255, 0, 0, 0) 70%),
+    radial-gradient(circle at right, rgba(237, 8, 8, 0.8), rgba(255, 0, 255, 0) 50%);
   background-size: 200% 200%;
   animation: movement 30s ease infinite alternate-reverse;
 }
@@ -54,9 +54,9 @@ section {
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(1rem);
   border-radius: 2rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0.8rem 0.8rem 1.6rem 0 rgba(206, 205, 205, 0.5),
-    -0.8rem -0.8rem 1.6rem 0 rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(250, 0, 0, 0.954);
+  /* box-shadow: 0.8rem 0.8rem 1.6rem 0 rgba(206, 205, 205, 0.5),
+    -0.8rem -0.8rem 1.6rem 0 rgba(255, 255, 255, 0.5); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,7 +75,7 @@ section h1 span {
   font-size: 0.5rem;
   display: inline-block;
   width: 4.5rem;
-  color: magenta;
+  color: rgb(242, 242, 242);
   text-transform: lowercase;
 }
 
